@@ -22,16 +22,17 @@ body {
     border: none;
     border-radius: 5px;
   }
-.button-container {
+  .button-container {
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
-}
+  }
   button {
+    align-self: auto;
     background-color: #86C232;
     color: #222629;
-    padding: 10px 20px;
+    padding: 10px 20px; 
     border: none;
     cursor: pointer;
     margin: 10px;
